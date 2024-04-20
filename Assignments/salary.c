@@ -1,7 +1,6 @@
 #include <stdio.h>
 void main (){
-    int rs;
-    float gs;
+    int rs;float gs;
     printf("Enter the Ramesh's salary : ");
     scanf("%d", &rs);
     gs = rs + 60.0/100*rs;
