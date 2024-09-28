@@ -11,7 +11,6 @@ int main()
         scanf("%d", &yourGuess);
         int diff = (random - yourGuess);
         printf("%d\n", random);
-        printf("%d", +diff);
         if(yourGuess == random)
             guessed = 1;
         else if(diff < 50)
